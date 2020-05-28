@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Demo-showlocations",
-    "slug": "Demo-showlocations",
+    "name": "ModifyShop",
+    "slug": "ModifyShop",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,12 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.wakekyway",
+      "config": {
+         "googleMaps": { "apiKey": "AIzaSyBDoXqGIt5qG2jQQ56wkKrxgGOViyn84n8" }   
+      }
+   }
   }
 }
