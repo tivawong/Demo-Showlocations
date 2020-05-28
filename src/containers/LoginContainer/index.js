@@ -2,7 +2,7 @@
 import React from 'react'
 import { AppLoading } from 'expo'
 import * as Font from 'expo-font'
-import { StyleSheet, Text, View } from 'react-native'
+
 import LoginScreen from '../../screens/LoginScreen'
 
 class LoginContainer extends React.Component {

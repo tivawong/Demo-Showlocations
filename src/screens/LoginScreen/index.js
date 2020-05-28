@@ -1,19 +1,31 @@
 import React, { useContext } from 'react';
-import { StyleSheet, Text, View, Dimensions,TouchableOpacity,Image } from 'react-native';
+import { StyleSheet, Text, View,TouchableOpacity,Image } from 'react-native';
 
 const Login = props => {
     return (   
         <View style={{flex: 1}}>
-            <View style={{flex: 1,borderWidth:1,alignItems: 'center',justifyContent: 'center',}}>
-                <TouchableOpacity
-                    
-                >
+            <View style={{flex: 1}}>
+                <View style={{alignItems:'center', marginTop:100}}>
                     <Image 
-                        source={require('../../images/google-plus.png')}
+                        style={{width: 180, height:180}}
+                        source={require('../../images/code.png')} 
                     />
-                    <Text>Google</Text>
+                </View>
+                <TouchableOpacity 
+                    style={{borderWidth:0.6,margin:50,marginTop:130,height:80,borderRadius:20}}
+                    onPress={()=>props.navigation.navigate('Home')}
+                >   
+                    <View style={{flexDirection:'row',justifyContent:'center'}}>
+                        <Image 
+                            style={{width: 65, height: 65,marginTop: 7}}
+                            source={require('../../images/google-logo.png')} 
+                        />
+                        <Text style={{fontFamily:'CSChatThai', fontSize: '25',marginTop:8,marginLeft:8,alignSelf:'center',color:'#000080'}}>Sign in with Google +</Text>
+                    </View>
+
                 </TouchableOpacity>
             </View>
         </View>
+    )
 }
 export default Login;
