@@ -22,13 +22,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.pany.demoios",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.905775505311-45b2793ilm3k22kqoi188uq44of1l8mv"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
-      "package": "com.wakekyway",
-      "config": {
-         "googleMaps": { "apiKey": "AIzaSyBDoXqGIt5qG2jQQ56wkKrxgGOViyn84n8" }   
-      }
-   }
+      "package": "example.expo.googlesignin",
+      "googleServicesFile": "./google-services.json"
+    }
   }
 }

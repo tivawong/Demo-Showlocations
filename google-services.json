@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "905775505311",
+    "firebase_url": "https://fir-locations-d5c3c.firebaseio.com",
+    "project_id": "fir-locations-d5c3c",
+    "storage_bucket": "fir-locations-d5c3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905775505311:android:0ccb147958573772b127aa",
+        "android_client_info": {
+          "package_name": "com.pany.demoandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905775505311-sokoci5830udvao3m8m3fddb710lonf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNsl7fOMdUla-1XKz3U2RHyGtUeNM_VNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905775505311-sokoci5830udvao3m8m3fddb710lonf5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "905775505311-45b2793ilm3k22kqoi188uq44of1l8mv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.company.demoios",
+                "app_store_id": "123456789"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
