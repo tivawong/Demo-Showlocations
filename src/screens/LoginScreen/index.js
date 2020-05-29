@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { StyleSheet, Text, View,TouchableOpacity,Image } from 'react-native';
 
 const Login = props => {
+
     return (   
         <View style={{flex: 1}}>
             <View style={{flex: 1}}>
@@ -13,7 +14,7 @@ const Login = props => {
                 </View>
                 <TouchableOpacity 
                     style={{borderWidth:0.6,margin:50,marginTop:130,height:80,borderRadius:20}}
-                    onPress={()=>props.navigation.navigate('Home')}
+                    onPress={props.onPressGG()}
                 >   
                     <View style={{flexDirection:'row',justifyContent:'center'}}>
                         <Image 

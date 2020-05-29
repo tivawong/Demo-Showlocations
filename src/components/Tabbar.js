@@ -3,7 +3,7 @@
  */
 
 import React, { Component } from "react";
-import { View, Text, TouchableOpacity, Image } from "react-native";
+import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 
 
 class Tabbar extends Component {
@@ -87,5 +87,6 @@ class Tabbar extends Component {
     );
   }
 }
+
 
 export default Tabbar;

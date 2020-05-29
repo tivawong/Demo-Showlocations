@@ -31,7 +31,7 @@
       "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
-      "package": "example.expo.googlesignin",
+      "package": "com.pany.demoandroid",
       "googleServicesFile": "./google-services.json"
     }
   }
